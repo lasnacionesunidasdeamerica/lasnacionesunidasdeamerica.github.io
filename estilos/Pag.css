@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+ 
+    font-family: 'Calibri';
+    
+}
+
+
+
+
+/* TITULO NOTICIA PRINCIPAL*/
+.titulo_link_principal{
+    font-family: 'Calibri';
+    font-size: 48px;
+    text-decoration: none;
+    color: rgb(17, 16, 26);
+    margin-top: 60px;
+    margin-right: 10px;
+}
+
+.titulo_link_principal:hover{
+    color: red(174, 28, 28);
+}
+.titulo_link_principal:visited{
+    color: rgb(17, 16, 26);
+}
+
+.titulo_link_principal:visited:hover{
+    color: red;
+}
+
+.titulo_link_principal:focus{
+    color: red;
+}
+
+/* TEXTO NOTICIA PRINCIPAL*/
+
+.texto_link_principal{
+    font-family: 'Calibri';
+    font-size: 20px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(17, 16, 26);
+}
+
+.texto_link_principal:hover{
+    color: red(174, 28, 28);
+}
+.texto_link_principal:visited{
+    color: rgb(17, 16, 26);
+}
+
+.texto_link_principal:visited:hover{
+    color: red;
+}
+
+.texto_link_principal:focus{
+    color: red;
+}
+
+/* DIV NOTICIA PRINCIPAL*/
+.div_tarjeta_Principal{
+    display: inline-block;
+    padding-top: 2em;
+    padding-left: 6px;
+    margin-left: 86px;
+}
+
+
+.img_principal{
+    display: block;
+    width: 34em;
+    padding-left: 10px;
+    
+        
+}
+
+/* DIV NOTICIA 2*/
+.div_tarjeta_2{
+    width: 320px;
+    position:relative;
+    left: 660px;
+    bottom: 400px;
+    display: inline-block;
+    border-bottom: solid 1px rgb(196, 196, 196);
+    justify-items: center;
+}
+
+.img_tarjeta_2{  
+   
+        width: 320px;
+        height: 184px;
+        padding-top: 1em;
+        cursor:auto;
+       
+    }
+    
+
+
+/* TITULO NOTICIA 2*/
+.titulo_link_2{
+    font-family: 'Calibri';
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(17, 16, 26);
+    margin-top: 5px;
+    margin-bottom: 16px;
+    margin-left: 150px;
+    
+}
+
+.titulo_link_2:hover{
+    color: red(174, 28, 28);
+}
+.titulo_link_2:visited{
+    color: rgb(17, 16, 26);
+}
+
+.titulo_link_2:visited:hover{
+    color: red;
+}
+
+.titulo_link_2:focus{
+    color: red;
+}
+
+.titulo_link_3{
+    font-family: 'Calibri';
+    font-size: 18px;
+    display: inline;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(17, 16, 26);
+    
+    
+}
+
+.titulo_link_3:hover{
+    color: red(174, 28, 28);
+}
+.titulo_link_3:visited{
+    color: rgb(17, 16, 26);
+}
+
+.titulo_link_3:visited:hover{
+    color: red;
+}
+
+.titulo_link_3:focus{
+    color: red;
+}
+/*NOTICIA 3 CRISTINA*/
+.div_tarjeta_3{
+    position:relative;
+    left: 970px;
+    bottom: 670px;
+    display: inline-block;
+    border-bottom: solid 1px rgb(196, 196, 196);
+}
+
+
+.img_cfk{
+    width: 320px;
+    height: 180px;
+    padding-top: 1em;
+    cursor:auto;
+   
+}
+
+.titulo_link_3{
+    font-family: 'Calibri';
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(17, 16, 26);
+    margin-top: 5px;
+    margin-bottom: 11px;
+ 
+}
+
+.titulo_link_3:hover{
+    color: red(174, 28, 28);
+}
+.titulo_link_3:visited{
+    color: rgb(17, 16, 26);
+}
+
+.titulo_link_3:visited:hover{
+    color: red;
+}
+
+.titulo_link_3:focus{
+    color: red;
+}
+/* DIV NOTICIA 4*/
+.div_tarjeta_4{
+    position:relative;
+    left: 320px;
+    bottom: 395px;
+    display: inline-block;
+    border-bottom: solid 1px rgb(196, 196, 196);
+}
+
+/* DIV NOTICIA 5*/
+.div_tarjeta_5{
+    position:relative;
+    left: 325px;
+    bottom: 394px;
+    display: inline-block;
+    border-bottom: solid 1px rgb(196, 196, 196);
+    
+
+}
+
+.titulo_link_4{
+    font-family: 'Calibri';
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: rgb(17, 16, 26);
+    margin-top: 7px;
+    margin-bottom: 48px;
+ 
+}
+
+.titulo_link_4:hover{
+    color: red(174, 28, 28);
+}
+.titulo_link_4:visited{
+    color: rgb(17, 16, 26);
+}
+
+.titulo_link_4:visited:hover{
+    color: red;
+}
+
+.titulo_link_4:focus{
+    color: red;
+}
+
+/*Paginas--------------------------------------------------*/
+.titulo{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 45px;
+}
+.subtitulo{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+.texto{
+    margin-left: 120px;
+    margin-right: 140px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.videor{
+    margin-left: 240px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 900px;
+    height: 500px;
+   
+    border-radius: 2%;
+    
+}
+
+.videorchico{
+    width: 20px;
+    height: 40px;
+    
+}
+
+
+
+.imgnoti2{
+    width: 320px;
+    position: absolute;
+    top: 847px;
+    right: 200px;;
+}
+/*MEDIA QUERY RESPONSIVE--------------------------------------------------*/
+@media (max-width:600px){
+    .titulo{
+        font-size: 28px;
+        text-align: center;
+        padding: 2em 1em 0em 2em;
+        flex-wrap: wrap;
+        
+    }
+
+    .img_prico{
+        width: 20em;
+        padding: 0.1em 0em 0em 0em;
+        margin-left: 6em;
+    }
+
+    .texto_home_prico{
+        font-size: 15px;
+        text-align: center;
+        padding: 0.5em 0em 2em 3em;   
+       
+    }
+    .foto1{
+        width: 20em;
+        height: 12em;
+        padding: 0.1em 0em 0em 1em;
+        margin-left: 0.6em;
+    }
+}
+
