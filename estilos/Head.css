@@ -5,6 +5,9 @@
 
 }
 
+#link_bloqueado{
+    color:rgb(155, 151, 146)
+}
 
 .menu__logo{
     padding-left: 1em;
@@ -276,6 +279,8 @@ ol {
     width: 40px;
     
 }
+
+
 
 @media (max-width:500px){
     .menu{
