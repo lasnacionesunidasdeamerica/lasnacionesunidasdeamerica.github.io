@@ -196,7 +196,8 @@ ol {
 
 .menu section li a:hover {
   
-  color:#77797c;
+  color:#2d4f70;
+  cursor: pointer;
   
 }
 
