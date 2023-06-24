@@ -12,7 +12,16 @@ body{
 }
 
 
-
+#columnas{
+    column-count:3;
+    column-gap:10px;
+    column-rule: 15px solid  gray;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    padding-left: 105px;
+    font-size: 40px;
+    color:red
+}
 
 /* TITULO NOTICIA PRINCIPAL*/
 .titulo_link_principal{
@@ -295,9 +304,7 @@ body{
     right: 200px;;
 }
 
-.link_bloqueado{
-    color:rgb(46, 45, 44)
-}
+
 /*MEDIA QUERY RESPONSIVE--------------------------------------------------*/
 @media (max-width:600px){
     .titulo{
