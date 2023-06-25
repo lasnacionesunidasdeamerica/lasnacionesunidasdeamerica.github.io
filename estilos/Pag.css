@@ -8,7 +8,8 @@
 body{
  
     font-family: 'Calibri';
-    
+    background-image: url("/img/fondouna_estrellas.jpg"); 
+        
 }
 
 
@@ -121,18 +122,19 @@ body{
     display: inline;
     justify-content: center;
     text-decoration: none;
-    color: rgb(17, 16, 26);
+    color: red;
     margin-top: 5px;
-    margin-bottom: 16px;
+    margin-bottom: 60px;
     margin-left: 150px;
     
 }
 
 .titulo_link_2:hover{
-    color: red(174, 28, 28);
+    color: red;
 }
 .titulo_link_2:visited{
-    color: rgb(17, 16, 26);
+    color: red;
+    padding: 60px;
 }
 
 .titulo_link_2:visited:hover{
@@ -281,10 +283,10 @@ body{
 .videor{
     margin-left: 240px;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     width: 900px;
     height: 500px;
-   
+   border: solid 2px rgb(187, 183, 183);
     border-radius: 2%;
     
 }
@@ -292,11 +294,28 @@ body{
 .videorchico{
     width: 20px;
     height: 40px;
-    
+    border: solid 2px rgb(187, 183, 183);
+
 }
 
 
+.botonazo{
+    font-size: 50px;
+    text-decoration: none;
+    color: blue;
+    padding: 60px;
+    margin-left: 65px;
+    padding-bottom: 100px;
+ 
+}
 
+.botonazo:visited{
+    font-size: 50px;
+    padding: 60px;
+    margin-left: 60px;
+    padding-bottom: 100px;
+    text-decoration: none;
+}
 .imgnoti2{
     width: 320px;
     position: absolute;
