@@ -6,8 +6,7 @@ import tailwind from "@astrojs/tailwind";
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://lasnacionesunidasdeamerica.github.io',
-  base: '/lasnacionesunidasdeamerica.github.io',
-  integrations: [tailwind()]
+  site: "https://lasnacionesunidasdeamerica.com.ar/",
+    integrations: [tailwind()]
 })
 
