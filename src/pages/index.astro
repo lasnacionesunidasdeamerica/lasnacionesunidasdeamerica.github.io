@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import Navegador from '../components/Navegador.astro';
+import DropdownMulti from '../components/DropdownMulti.astro';
+import Portada from '../components/Portada.astro';
+import Video_card from '../components/Video_card.astro';
+---
+
+<Layout title="UNA">
+	<main>
+
+	
+
+	<Navegador />
+	<Portada />
+	<div>
+		<h2 class=" text-6xl font-bold tracking-tight sm:text-6xl py-14 px-100" style="font-family:Verdana, Geneva, Tahoma, sans-serif; margin-left:180px; color:rgb(245, 35, 35); font-size: 50px;">LAS NACIONES UNIDAS DE AMERICA</h2>
+	</div>
+	<video src="../../public/video/promocional.mp4"  controls style="border-radius: 6%; margin: auto; padding top:20px;" class="relative ml-3"></video>
+	<div style="display:flex">
+
+	<Video_card />
+	<Video_card />
+	<Video_card />
+	</div>
+
+		</main>
